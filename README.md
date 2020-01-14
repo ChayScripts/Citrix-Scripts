@@ -1,1 +1,3 @@
-### Collection of Citrix Scripts I wrote on day to day tasks.
+# Citrix
+Scripts related to Citrix products. Please run only if you understand completely. 
+
