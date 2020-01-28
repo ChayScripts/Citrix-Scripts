@@ -1,4 +1,5 @@
 #Get date from citrix server and update it in vda.
+#Run this script from citrix server.
 
 $comp = "VDA Name"
 $y=get-date 
