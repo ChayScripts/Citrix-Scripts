@@ -2,6 +2,6 @@
 #Run this script from citrix server.
 
 $comp = "VDA Name"
-$y=get-date 
+$newdate=get-date 
 Invoke-Command -ScriptBlock {param($newdate) Set-Date -Date $newdate } -ComputerName $comp -ArgumentList $y
 Get-Service brokeragent -ComputerName $comp | Restart-Service
